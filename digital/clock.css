@@ -1,0 +1,61 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+html,body
+{
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: black;
+}
+section
+{
+    /* border: 2px solid black;
+    height: 200px;
+    width: 700px;
+   
+    margin-left: 100px;
+    position: relative; */
+    margin-top: 100px;
+    background-color: rgb(30, 24, 24);
+    width: 60%;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+div
+{
+    /* border: 2px solid black; */
+    height: 70%;
+    width: 25%;
+    text-align: center;
+    color: whitesmoke;
+    
+}
+
+div input{
+    background-color: black;
+    /* background-image: url('dia.webp'); */
+    width: 80%;
+    height: 80%;
+    text-align: center;
+    font-size: 90px;
+    color: yellow;
+   
+}
+  span
+{
+    background-color: black;
+    /* background-image: url('dia.webp'); */
+    width: 80%;
+    height: 80%;
+    text-align: end;
+    font-size: 90px;
+    color: lightgreen;
+
+} 
